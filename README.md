@@ -1,6 +1,6 @@
 This is a sample S3 website created using Lambda
 
-**Deployment Steps**
+**Deployment Steps:**
 ```
 1) Create a bucket named "sgudipudi-code"
 2) aws cloudformation package --s3-bucket sgudipudi-code --template-file ./template.yaml --output-template-file ./template-packaged.yaml
